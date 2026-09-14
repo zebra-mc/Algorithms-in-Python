@@ -159,7 +159,7 @@ class Tests(unittest.TestCase):
         self.assertEqual(count_primes(26), 9)               # 25 в решете и должно быть вычеркнуто
 
     def test_known_counts(self):
-        """Известные значения функции распределения простых"""
+        """Известные значения функции распределения простых чисел"""
         for n, expected in ((30, 10), (100, 25), (10 ** 3, 168), (10 ** 4, 1229),
                             (10 ** 5, 9592), (10 ** 6, 78498)):
             self.assertEqual(count_primes(n), expected, n)  # табличные значения pi(n)
