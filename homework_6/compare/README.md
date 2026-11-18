@@ -14,10 +14,13 @@
 | `test_compare.py` | тесты |
 
 ```
-python main.py                          # из папки задачи: визуализации и замеры (около 3 с)
-python -m homework_6.compare.main       # то же из корня репозитория
-python -m unittest -v                   # из папки задачи: тесты
-python -m unittest discover -v          # из корня: тесты всех ДЗ, оформленных пакетами (5 и 6)
+# Запуск из папки задачи
+python main.py
+python -m unittest -v
+
+# Запуск из корня репозитория
+python -m homework_6.compare.main
+python -m unittest discover -v
 ```
 
 `merge` и `partition` импортирует задача 2, поэтому они вынесены в отдельные функции.
