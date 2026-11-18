@@ -15,10 +15,13 @@
 | `test_iterative.py` | тесты; общие тесты сортировок `SortContract` берутся из задачи 1 |
 
 ```
-python main.py                            # из папки задачи: визуализации
-python -m homework_6.iterative.main       # то же из корня
-python -m unittest -v                     # из папки задачи: тесты
-python -m unittest discover -v            # из корня: тесты ДЗ 5 и 6
+# Запуск из папки задачи
+python main.py
+python -m unittest -v
+
+# Запуск из корня репозитория
+python -m homework_6.iterative.main
+python -m unittest discover -v
 ```
 
 Как и в ДЗ 5, при запуске `python main.py` из папки задачи `main.py` один раз добавляет корень
