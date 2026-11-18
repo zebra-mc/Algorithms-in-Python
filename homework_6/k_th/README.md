@@ -27,9 +27,13 @@
 | `test_k_th.py` | тесты |
 
 ```
-python main.py                      # из папки задачи: пошаговые таблицы для трех примеров
-python -m homework_6.k_th.main      # то же из корня
-python -m unittest -v               # из папки задачи: тесты
+# Запуск из папки задачи
+python main.py
+python -m unittest -v
+
+# Запуск из корня репозитория
+python -m homework_6.k_th.main
+python -m unittest discover -v
 ```
 
 ## Идея решения
